@@ -16,7 +16,7 @@ Per a posar en marxa aquest projecte en el teu entorn local, segueix aquests pas
 
 1.  **Clona el repositori:**
     ```bash
-    git clone <URL_DEL_REPOSITORI>
+    git clone <https://github.com/JavaGuper/InterficieVeu.git>
     cd interficie_veu
     ```
 
