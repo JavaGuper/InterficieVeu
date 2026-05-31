@@ -1,0 +1,47 @@
+# Interfície de Veu
+
+Una aplicació d'escriptori desenvolupada amb Vue.js i Electron que permet la interacció a través de comandes de veu.
+
+## 🚀 Tecnologies Utilitzades
+
+- **Vue.js:** Un framework progressiu per a construir interfícies d'usuari.
+- **Electron:** Per a construir aplicacions d'escriptori multiplataforma amb tecnologies web.
+- **Vite:** Una eina de desenvolupament web ràpida que ofereix una experiència de desenvolupament més àgil.
+- **Vuetify:** Una biblioteca de components d'interfície d'usuari per a Vue.js amb un disseny Material Design.
+- **Web Speech API:** Per al reconeixement de veu en el navegador.
+
+## ⚙️ Instruccions d'Instal·lació i Execució
+
+Per a posar en marxa aquest projecte en el teu entorn local, segueix aquests passos:
+
+1.  **Clona el repositori:**
+    ```bash
+    git clone <URL_DEL_REPOSITORI>
+    cd interficie_veu
+    ```
+
+2.  **Instal·la les dependències:**
+    Assegura't de tenir [Node.js](https://nodejs.org/) instal·lat. Després, executa la següent comanda a la terminal:
+    ```bash
+    npm install
+    ```
+
+3.  **Executa l'aplicació en mode de desenvolupament:**
+    Aquesta comanda iniciarà l'aplicació en un entorn de desenvolupament amb recàrrega automàtica.
+    ```bash
+    npm run dev
+    ```
+
+4.  **Compila l'aplicació per a producció:**
+    Per a crear una versió optimitzada de l'aplicació per a producció, executa:
+    ```bash
+    npm run build
+    ```
+
+## 🎙️ Ús de l'Aplicació
+
+L'aplicació permet controlar la interfície mitjançant comandes de veu. En iniciar l'aplicació, trobaràs un component que escolta les teves instruccions.
+
+1.  **Activa el reconeixement de veu:** Fes clic al botó del micròfon per començar a escoltar.
+2.  **Parla amb claredat:** Pronuncia una de les comandes predefinides.
+3.  **Observa la resposta:** L'aplicació reaccionarà a la teva comanda, per exemple, canviant de pàgina o modificant el contingut visualitzat.
